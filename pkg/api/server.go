@@ -18,7 +18,6 @@ type Server struct {
 }
 
 func New(pod *pod.Pod) *Server {
-
 	ret := &Server{
 		pod: pod,
 	}
