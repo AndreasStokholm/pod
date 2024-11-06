@@ -80,6 +80,7 @@ func main() {
 			return
 		case <-stop:
 			fmt.Println("Stop signal received. Bye!")
+			return
 		}
 	}
 }
